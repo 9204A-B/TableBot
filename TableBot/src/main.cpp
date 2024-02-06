@@ -14,5 +14,6 @@ int main()
 {
     // Vex requires this function to initalize everything
     vexcodeInit();
-    thread Drive = thread(drive);
+    Competition.autonomous(auton);
+    Competition.drivercontrol(drive);
 }
