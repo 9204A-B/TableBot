@@ -19,7 +19,7 @@ void Screen(void)
                     Brain.Screen.drawImageFromFile(file, 0, 0);
                     wait(150, msec);
                 }
-                for (int x = 0; x < ; x++)
+                for (int x = 0; x < 1371; x++)
                 {
                     std::string file = "expect" + x + ".png";
                     Brain.Screen.drawImageFromFile(file, 0, 0);
